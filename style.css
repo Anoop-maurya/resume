@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(8, 8, 49);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    font-family: 'Philosopher', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: cadetblue;
+    font-size: 1.04rem;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 3rem;
+}
+
+.logo {
+    height: 2.8rem;
+    background-color: rgb(8, 8, 49);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.left {
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name h2 span {
+    color: cadetblue;
+}
+
+.landingsection {
+    display: flex;
+}
+
+.mainclass {
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.mainclass .mainsection {
+    height: 90vh;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.mainleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    flex-direction: column;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.mainleft h3 {
+    color: white;
+    font-size: 3.8rem;
+    margin-left: 3rem;
+}
+
+.linediv{
+    height: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linediv .line {
+    width: 90%;
+    height: 0.2rem;
+    background-color: rgb(8, 8, 49);
+}
+
+.intro {
+    height: 55%;
+    width: 60%;
+    /* border: 2px solid red; */
+}
+
+.intro span {
+    color: rgb(8, 8, 49);
+}
+
+.profile {
+    height: 65%;
+    width: 55%;
+    border-radius: 50%;
+    border: 0.9rem solid rgb(8, 8, 49);
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 1.2rem 1.2rem 2.5rem whitesmoke;
+}
+
+.profile img {
+    height: 100%;
+    width: 100%;
+}
+
+.mainright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn .freecall {
+    background-color: rgb(8, 8, 49);
+    padding: 0.4rem 0.9rem;
+    border-radius: 1.1em;
+    color: white;
+    margin-top: 1em;
+    font-size: 1.2rem;
+    font-family: 'Philosopher', sans-serif;
+    cursor: pointer;
+}
+
+.btn .freecall:hover {
+    color: rgb(8, 8, 49);
+    background-color: white;
+    transition: all 0.8s;
+}
+
+nav .cv .cvbtn {
+    display: inline-block;
+    background-color: rgb(8, 8, 49);
+    padding: 0.4em;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+nav .cv .cvbtn:hover {
+    color: cadetblue;
+}
+
+/* about section */
+
+.aboutsection {
+    display: flex;
+}
+
+.aboutleft,
+.aboutright {
+    height: 100vh;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.aboutleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aboutright p {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.aboutright h2 {
+    font-size: 4rem;
+    color: rgb(27, 27, 128);
+}
+
+.aboutphoto {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.aboutright .aboutus,.myjourney {
+    /* border: 2px solid red; */
+    width: 90%;
+}
